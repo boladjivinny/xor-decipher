@@ -16,7 +16,7 @@ if __name__=='__main__':
 		data = pair.split('=')
 		args[data[0][1:]] = data[1]
 	
-	ciphertext = input("Enter the cypher text : \n")
+	ciphertext = raw_input("Enter the cypher text : \n")
 	spaced_ciphertext = ciphertext[:2]
 	i = 2
 	while (i < len(ciphertext)):
